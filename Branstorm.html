@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+	<head>
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script src ="Branstorm.js"></script>
+		<style type="text/css">
+			html, body, button {
+				font-family: "Comic Sans MS";
+				text-transform: lowercase;
+				text-align: center;
+				background-image: url("blue.gif");
+			}
+			h1 {
+				font-size: 36px;
+			}
+			#madLib {
+				font-size: 28px;
+			}
+			#make{
+				height: 500px;
+			}
+
+		</style>
+
+	</head>
+	<body>
+		<h1>Oh ho it's BRANSTORM TIME!</h1>
+		<form id = "form"></form>
+		<center><button id = "submit" onclick = 'getInput()' style = "display:none;">Submit</button></center>
+		<p id = "madLib"></p>
+		<center><img src = "face.png" id = "make" onclick = "setTimeout(makeForm(), 5000)"/>
+		<a href = "index2.html"><img src = "ef8.png" id = "haha" style = "display: none; height: 200px;"/></a></center>
+	</body>
+</html>
